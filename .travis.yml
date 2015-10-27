@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
+deploy:
+  provider: heroku
+  api_key:
+    secure: qCM3ZBhfSNuT4Le8WfO9hK9D3e0h6ZHwYGc+pu8/xZpFfYEVsh8ma1TQpTk5MPJkN5joZSZZJXmF4F4pTzNhh6mPaYDqTyjzewR6WMA5cxChu8syLRBXClNwfZGnBQL85o8DLIHdTdbkRXHGzJw8oH9FsdWijsN7WZoctWrHWHaJDi/NipgOPYgk13Wu/ik5/hfH0s1KQdAP9/lvP448YoR2Frng2mbPTWfe/P5jXLwkmx5VLckzJfahTWyP5CAD+2PZmcxlXwxfx3v49f/l5tRNVQOaEwZqB5u7D2df5BXc87jkU4Ld1ee9aSNVmn81mP8/gq7AUZDMQxdVsDxZTNBWCckLz4yc45/NJrDG/tn9Uxmp7W6Blr3SlYDIHhFDxYt7p3X1AeumN4hvYVU/T4kVWxktURDCogiNtWKUjglxZhoPX6/gAHrgfpbVVYMV+NuIhsL+tLHFJDFRgFC/om9aRDzM4KXndUYuU1yzDMh/UuMhIobY46l/bNsm6XcjnSTSmT/uJsUM9yB6Lc6DbXJa5H5JdF4Ra0kv8UQyD2yinJe/4eiY3RV8VG69RueplgrI8Tw9rtRAG1C2pNAkncWA351EXkF/pgGtXpCRKpGMagCc1xFqdOqp0w+DJBpJjDP0iUK22Xwh6Hg0ZUI9OImKTnZiqhp47b0MAUiAplw=
+  app: schmalgorithm_js
+  on:
+    repo: adamkrieger/schmalgorithm_js
